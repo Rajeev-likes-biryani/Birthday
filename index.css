@@ -420,7 +420,7 @@ body{
   padding: 30px 16px 40px;
   text-align: center;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: clamp(0.95rem, 3.5vw, 1.4rem);
+  font-size: clamp(2.85rem, 10.5vw, 4.2rem);
   color: rgba(60, 52, 42, 0.75);
   letter-spacing: 0.02em;
 }
