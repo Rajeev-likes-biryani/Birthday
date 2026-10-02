@@ -49,14 +49,14 @@ body{
 
 .scroll-hint{
   position: absolute;
-  top: 72%;
+  bottom: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  z-index: 30;
+  z-index: 10;
   pointer-events: none;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: clamp(1.25rem, 5.5vw, 2rem);
@@ -285,7 +285,7 @@ body{
   padding: 1rem;
   background: #f7f3ea;
   font-family: "Comic Sans MS", "Bradley Hand", cursive, sans-serif;
-  font-size: clamp(16px, 2.8vw, 24px);
+  font-size: clamp(24px, 4.2vw, 36px);
   line-height: 1.5;
   color: #222;
 }
@@ -410,7 +410,7 @@ body{
 
 #msg{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: clamp(1.1rem, 4vw, 1.8rem);
+  font-size: clamp(2.2rem, 8vw, 3.6rem);
   color: #4a3b2a;
   text-align: center;
 }
